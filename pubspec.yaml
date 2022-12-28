@@ -1,0 +1,36 @@
+name: ole_math_keyboard
+description: >-2
+  Math expression editing using an on-screen software keyboard or physical keyboard input in a
+  typeset input field in Flutter.
+version: 0.3.0
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+  flutter: '>=2.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  shared_preferences: ^2.0.15
+  flutter_math_fork: ^0.6.2
+  holding_gesture: ^1.1.0
+  intl: ^0.17.0
+  math_expressions: ^2.1.0
+  petitparser: ^4.0.2
+  google_fonts: ^2.3.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  pedantic: ^1.11.0
+
+flutter:
+  fonts:
+  - family: CustomKeyIcons
+    fonts:
+    - asset: fonts/CustomKeyIcons.ttf
